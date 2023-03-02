@@ -15,7 +15,9 @@
             });
      
         function labnolThumb(id) {
-            var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+            //var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+              var thumb = '<img src="https://i.ytimg.com/vi/ID/maxresdefault.jpg">',  
+                
                 play = '<div class="play embed-responsive-item"></div>';
             return thumb.replace("ID", id) + play;
         }
